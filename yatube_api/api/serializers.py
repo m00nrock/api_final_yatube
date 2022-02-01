@@ -45,8 +45,6 @@ class FollowSerializer(serializers.ModelSerializer):
     )
 
     class Meta:
-        # тесты ожидают оба значения в fields (user и following)
-        # если убираю одно из них, тесты падают
         fields = ('user', 'following',)
         model = Follow
         validators = [
