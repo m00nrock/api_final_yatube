@@ -1,3 +1,4 @@
+![example workflow](https://github.com/m00nrock/api_final_yatube/actions/workflows/main.yml/badge.svg)
 # API для проекта yatube
 ## API позволяет работать с постами, комментариями и подписками
 
